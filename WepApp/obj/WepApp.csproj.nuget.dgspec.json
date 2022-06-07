@@ -1,26 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aehol\\Desktop\\DoAnWeb\\WepApp\\WepApp.csproj": {}
+    "C:\\Users\\minhm\\Source\\Repos\\DoAnWeb\\WepApp\\WepApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aehol\\Desktop\\DoAnWeb\\WepApp\\WepApp.csproj": {
+    "C:\\Users\\minhm\\Source\\Repos\\DoAnWeb\\WepApp\\WepApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aehol\\Desktop\\DoAnWeb\\WepApp\\WepApp.csproj",
+        "projectUniqueName": "C:\\Users\\minhm\\Source\\Repos\\DoAnWeb\\WepApp\\WepApp.csproj",
         "projectName": "WepApp",
-        "projectPath": "C:\\Users\\aehol\\Desktop\\DoAnWeb\\WepApp\\WepApp.csproj",
-        "packagesPath": "C:\\Users\\aehol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aehol\\Desktop\\DoAnWeb\\WepApp\\obj\\",
+        "projectPath": "C:\\Users\\minhm\\Source\\Repos\\DoAnWeb\\WepApp\\WepApp.csproj",
+        "packagesPath": "C:\\Users\\minhm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\minhm\\Source\\Repos\\DoAnWeb\\WepApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\aehol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\minhm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -81,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }
