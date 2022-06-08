@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using WepApp.Models;
 
@@ -7,23 +6,14 @@ namespace WepApp.Controllers
 {
     public class ProductController : Controller
     {
-        public readonly covid19Context _context;
-        public ProductController()
-        {
-            _context = new covid19Context();
-        }
+        covid19Context db = new covid19Context();
         public IActionResult Index()
         {
-            var viewSP = _context.Sanphams.ToList();
-            return View(viewSP);
+            var sanpham = db.Sanphams.ToList();
+            return View(sanpham);
         }
-        public IActionResult Details(int id)
+        public IActionResult Details()
         {
-            //var sanpham = _context.Sanphams.Include(x => x.Madm).FirstOrDefault(x => x.Masp == id);
-            //if (sanpham == null)
-            //{
-            //    return RedirectToAction("Index");
-            //}
             return View();
         }
         public IActionResult Pagecarts()
