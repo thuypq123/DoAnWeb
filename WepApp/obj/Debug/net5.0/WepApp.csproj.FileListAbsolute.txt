@@ -1116,7 +1116,6 @@ C:\Users\minhm\source\repos\DoAnweb\WepApp\bin\Debug\net5.0\refs\Microsoft.Exten
 C:\Users\minhm\source\repos\DoAnweb\WepApp\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
 C:\Users\minhm\source\repos\DoAnweb\WepApp\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
 C:\Users\minhm\source\repos\DoAnweb\WepApp\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.Xml.dll
-C:\Users\minhm\source\repos\DoAnweb\WepApp\bin\Debug\net5.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\minhm\source\repos\DoAnweb\WepApp\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
 C:\Users\minhm\source\repos\DoAnweb\WepApp\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
 C:\Users\minhm\source\repos\DoAnweb\WepApp\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
@@ -1242,7 +1241,6 @@ C:\Users\minhm\source\repos\DoAnweb\WepApp\bin\Debug\net5.0\refs\System.Reflecti
 C:\Users\minhm\source\repos\DoAnweb\WepApp\bin\Debug\net5.0\refs\System.Resources.Reader.dll
 C:\Users\minhm\source\repos\DoAnweb\WepApp\bin\Debug\net5.0\refs\System.Resources.ResourceManager.dll
 C:\Users\minhm\source\repos\DoAnweb\WepApp\bin\Debug\net5.0\refs\System.Resources.Writer.dll
-C:\Users\minhm\source\repos\DoAnweb\WepApp\bin\Debug\net5.0\refs\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\minhm\source\repos\DoAnweb\WepApp\bin\Debug\net5.0\refs\System.Runtime.CompilerServices.VisualC.dll
 C:\Users\minhm\source\repos\DoAnweb\WepApp\bin\Debug\net5.0\refs\System.Runtime.dll
 C:\Users\minhm\source\repos\DoAnweb\WepApp\bin\Debug\net5.0\refs\System.Runtime.Extensions.dll
@@ -1451,6 +1449,7 @@ C:\Users\minhm\source\repos\DoAnweb\WepApp\obj\Debug\net5.0\WepApp.dll
 C:\Users\minhm\source\repos\DoAnweb\WepApp\obj\Debug\net5.0\ref\WepApp.dll
 C:\Users\minhm\source\repos\DoAnweb\WepApp\obj\Debug\net5.0\WepApp.pdb
 C:\Users\minhm\source\repos\DoAnweb\WepApp\obj\Debug\net5.0\WepApp.genruntimeconfig.cache
+<<<<<<< HEAD
 C:\Users\aehol\Desktop\DoAnWeb\WepApp\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\aehol\Desktop\DoAnWeb\WepApp\bin\Debug\net5.0\appsettings.json
 C:\Users\aehol\Desktop\DoAnWeb\WepApp\bin\Debug\net5.0\WepApp.StaticWebAssets.xml
@@ -1886,3 +1885,8 @@ C:\Users\aehol\Desktop\DoAnWeb\WepApp\obj\Debug\net5.0\refint\WepApp.dll
 C:\Users\aehol\Desktop\DoAnWeb\WepApp\obj\Debug\net5.0\WepApp.pdb
 C:\Users\aehol\Desktop\DoAnWeb\WepApp\obj\Debug\net5.0\WepApp.genruntimeconfig.cache
 C:\Users\aehol\Desktop\DoAnWeb\WepApp\obj\Debug\net5.0\ref\WepApp.dll
+=======
+C:\Users\minhm\source\repos\DoAnweb\WepApp\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\minhm\source\repos\DoAnweb\WepApp\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\minhm\source\repos\DoAnweb\WepApp\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+>>>>>>> 7e1d43c012674e3b5db5af379e0fc6e72c70df78
