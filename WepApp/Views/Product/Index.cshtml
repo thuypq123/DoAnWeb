@@ -29,430 +29,56 @@
                             </div>
                         </div>
                         <div class="shop-product-wrap grid row justify-content-center">
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <div class="product-item">
-                                    <div class="product-thumb">
-                                        <div class="pro-thumb">
-                                            <img src="assets/images/product/kit1.png" alt="shop">
+                           @foreach (var item in Model)
+                           {
+                               
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="product-item">
+                                        <div class="product-thumb">
+                                            <div class="pro-thumb">
+                                                <img src="assets/images/product/kit1.png" alt="shop">
+                                            </div>
+                                            <div class="product-action-link">
+                                                <a class="view-modal" data-target="#quick_view"><i class="icofont-eye"></i></a>
+                                                <a href="#"><i class="icofont-heart"></i></a>
+                                                <a href="#"><i class="icofont-cart-alt"></i></a>
+                                            </div>
                                         </div>
-                                        <div class="product-action-link">
-                                            <a class="view-modal" data-target="#quick_view"><i class="icofont-eye"></i></a>
-                                            <a href="#"><i class="icofont-heart"></i></a>
-                                            <a href="#"><i class="icofont-cart-alt"></i></a>
+                                        <div class="product-content">
+                                            <h5><a href="#"> @Html.ActionLink("Covid-19 Ag Home test ", "Details", "product")</a></h5>
+                                            <p><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i></p>
+                                            <h6>89,000₫</h6>
                                         </div>
                                     </div>
-                                    <div class="product-content">
-                                        <h5><a href="#"> @Html.ActionLink("Covid-19 Ag Home test ", "Details", "product")</a></h5>
-                                        <p><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i></p>
-                                        <h6>89,000₫</h6>
+                                    <div class="product-list-item">
+                                        <div class="product-thumb">
+                                            <div class="pro-thumb">
+                                                <img src="assets/images/product/kit1.png" alt="shop">
+                                            </div>
+                                            <div class="product-action-link">
+                                                <a class="view-modal" data-target="#quick_view"><i class="icofont-eye"></i></a>
+                                                <a href="#"><i class="icofont-heart"></i></a>
+                                                <a href="#"><i class="icofont-cart-alt"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="product-content">
+                                            <h5><a href="#"> @Html.ActionLink("Covid-19 Ag Home test ", "Details", "product")</a></h5>
+                                            <p><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i></p>
+                                            <h6>
+                                                89,000₫
+                                            </h6>
+                                            <p>
+                                                Thiết bị được thiết kế để phát hiện định tính kháng nguyên SARS-CoV-2 qua mẫu dịch ngoáy mũi ở người nghi ngờ nhiễm COVID-19<br />
+                                                - Kháng thể đơn dòng kháng SARS-CoV-2 Nucleocapsid<br />
+                                                - Kháng thể đơn dòng đặc hiệu với RBD Spike Protein của SARS-CoV-2<br />
+                                                - Kháng thể dê kháng IgG chuột
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="product-list-item">
-                                    <div class="product-thumb">
-                                        <div class="pro-thumb">
-                                            <img src="assets/images/product/kit1.png" alt="shop">
-                                        </div>
-                                        <div class="product-action-link">
-                                            <a class="view-modal" data-target="#quick_view"><i class="icofont-eye"></i></a>
-                                            <a href="#"><i class="icofont-heart"></i></a>
-                                            <a href="#"><i class="icofont-cart-alt"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="product-content">
-                                        <h5><a href="#"> @Html.ActionLink("Covid-19 Ag Home test ", "Details", "product")</a></h5>
-                                        <p><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i></p>
-                                        <h6>
-                                            89,000₫
-                                        </h6>
-                                        <p>
-                                            Thiết bị được thiết kế để phát hiện định tính kháng nguyên SARS-CoV-2 qua mẫu dịch ngoáy mũi ở người nghi ngờ nhiễm COVID-19<br />
-                                            - Kháng thể đơn dòng kháng SARS-CoV-2 Nucleocapsid<br />
-                                            - Kháng thể đơn dòng đặc hiệu với RBD Spike Protein của SARS-CoV-2<br />
-                                            - Kháng thể dê kháng IgG chuột
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <div class="product-item">
-                                    <div class="product-thumb">
-                                        <div class="pro-thumb">
-                                            <img src="assets/images/product/Que-test-nhanh-Biomerica.jpg" alt="shop">
-                                        </div>
-                                        <div class="product-action-link">
-                                            <a class="view-modal" data-target="#quick_view"><i class="icofont-eye"></i></a>
-                                            <a href="#"><i class="icofont-heart"></i></a>
-                                            <a href="#"><i class="icofont-cart-alt"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="product-content">
-                                        <h5><a href="#"> @Html.ActionLink("Biomerica COVID-19 ", "Details", "product")</a></h5>
-                                        <p><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i></p>
-                                        <h6>59000₫</h6>
-                                    </div>
-                                </div>
-                                <div class="product-list-item">
-                                    <div class="product-thumb">
-                                        <div class="pro-thumb">
-                                            <img src="assets/images/product/Que-test-nhanh-Biomerica.jpg" alt="shop">
-                                        </div>
-                                        <div class="product-action-link">
-                                            <a class="view-modal" data-target="#quick_view"><i class="icofont-eye"></i></a>
-                                            <a href="#"><i class="icofont-heart"></i></a>
-                                            <a href="#"><i class="icofont-cart-alt"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="product-content">
-                                        <h5><a href="#"> @Html.ActionLink("Biomerica COVID-19 ", "Details", "product")</a></h5>
-                                        <p><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i></p>
-                                        <h6>
-                                            59000₫
-                                        </h6>
-                                        <p>
-                                            Que test nhanh covid Biomerica, sản phẩm chất lượng cao được nhập trưc tiếp từ Mỹ.<br />
-                                            - Biomerica – Thương hiệu và xuất xứ tại Mỹ, hàng đầu thế giới với 50 năm kinh nghiệm<br />
-                                            - Đăng ký và giám sát bởi FDA Hoa Kỳ<br />
-                                            - Sản phẩm thuộc danh mục các thiết bị phổ biến để xét nghiệm SARS-CoV-2 do Ủy ban An ninh Y tế
-                                            Châu Âu (EUHSC) ban hành<br />
-                                            - Hiệu quả độ nhạy được kiểm nghiệm độc lập tại viện Paul-Ehrlich-Institute (PEI) Châu Âu<br />
-                                            - Độ nhạy 94.7%, độ đặc hiệu 99,7%<br />
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <div class="product-item">
-                                    <div class="product-thumb">
-                                        <div class="pro-thumb">
-                                            <img src="assets/images/product/cồn.png" alt="shop">
-                                        </div>
-                                        <div class="product-action-link">
-                                            <a class="view-modal" data-target="#quick_view"><i class="icofont-eye"></i></a>
-                                            <a href="#"><i class="icofont-heart"></i></a>
-                                            <a href="#"><i class="icofont-cart-alt"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="product-content">
-                                        <h5><a href="#"> @Html.ActionLink("Cồn 70 Độ 1000ML ", "Details", "product")</a></h5>
-                                        <p>
-                                            <i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i>
-                                        </p>
-                                        <h6>60.000₫</h6>
-                                    </div>
-                                </div>
-                                <div class="product-list-item">
-                                    <div class="product-thumb">
-                                        <div class="pro-thumb">
-                                            <img src="assets/images/product/cồn.png" alt="shop">
-                                        </div>
-                                        <div class="product-action-link">
-                                            <a class="view-modal" data-target="#quick_view"><i class="icofont-eye"></i></a>
-                                            <a href="#"><i class="icofont-heart"></i></a>
-                                            <a href="#"><i class="icofont-cart-alt"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="product-content">
-                                        <h5><a href="#"> @Html.ActionLink("Cồn 70 Độ 1000ML ", "Details", "product")</a></h5>
-                                        <p>
-                                            <i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i>
-                                        </p>
-                                        <h6>
-                                            60.000₫
-                                        </h6>
-                                        <p>
-                                            Danh mục:  Cồn và nước sát trùng<br />
-                                            Xuất xứ thương hiệu:  Việt Nam<br />
-                                            Thành phần:  Ethanol<br />
-                                            Công dụng:  Cồn 70 Độ Vĩnh Phúc Có Vòi Xịt 1000Ml tiện lợi, dùng để diệt khuẩn, nấm sau thời gian tiếp xúc 2 phút. Đồng thời, diệt khuẩn dụng cụ y tế, bề mặt trong y tế.<br />
-                                            Quy cách:  Thùng 12 chai<br />
-                                            Nước sản xuất:  Viet Nam<br />
-                                            Nhà sản xuất:  Công Ty Tnhh Sx Tm Lê Gia
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <div class="product-item">
-                                    <div class="product-thumb">
-                                        <div class="pro-thumb">
-                                            <img src="assets/images/product/thuoc1.png" alt="shop">
-                                        </div>
-                                        <div class="product-action-link">
-                                            <a class="view-modal" data-target="#quick_view"><i class="icofont-eye"></i></a>
-                                            <a href="#"><i class="icofont-heart"></i></a>
-                                            <a href="#"><i class="icofont-cart-alt"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="product-content">
-                                        <h5><a href="#"> @Html.ActionLink("Thuốc Paracetamol Stada 500Mg ", "Details", "product")</a></h5>
-                                        <p>
-                                            <i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i>
-                                        </p>
-                                        <h6>450₫</h6>
-                                    </div>
-                                </div>
-                                <div class="product-list-item">
-                                    <div class="product-thumb">
-                                        <div class="pro-thumb">
-                                            <img src="assets/images/product/thuoc1.png" alt="shop">
-                                        </div>
-                                        <div class="product-action-link">
-                                            <a class="view-modal" data-target="#quick_view"><i class="icofont-eye"></i></a>
-                                            <a href="#"><i class="icofont-heart"></i></a>
-                                            <a href="#"><i class="icofont-cart-alt"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="product-content">
-                                        <h5><a href="#"> @Html.ActionLink("Thuốc Paracetamol Stada 500Mg ", "Details", "product")</a></h5>
-                                        <p>
-                                            <i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i>
-                                        </p>
-                                        <h6>
-                                            450₫
-                                        </h6>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <div class="product-item">
-                                    <div class="product-thumb">
-                                        <div class="pro-thumb">
-                                            <img src="assets/images/shop/05.jpg" alt="shop">
-                                        </div>
-                                        <div class="product-action-link">
-                                            <a class="view-modal" data-target="#quick_view"><i class="icofont-eye"></i></a>
-                                            <a href="#"><i class="icofont-heart"></i></a>
-                                            <a href="#"><i class="icofont-cart-alt"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="product-content">
-                                        <h5><a href="#"> @Html.ActionLink("Product Title Here ", "Details", "product")</a></h5>
-                                        <p>
-                                            <i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i>
-                                        </p>
-                                        <h6>₫200</h6>
-                                    </div>
-                                </div>
-                                <div class="product-list-item">
-                                    <div class="product-thumb">
-                                        <div class="pro-thumb">
-                                            <img src="assets/images/shop/05.jpg" alt="shop">
-                                        </div>
-                                        <div class="product-action-link">
-                                            <a class="view-modal" data-target="#quick_view"><i class="icofont-eye"></i></a>
-                                            <a href="#"><i class="icofont-heart"></i></a>
-                                            <a href="#"><i class="icofont-cart-alt"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="product-content">
-                                        <h5><a href="#"> @Html.ActionLink("Product Title Here ", "Details", "product")</a></h5>
-                                        <p>
-                                            <i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i>
-                                        </p>
-                                        <h6>
-                                            ₫200
-                                        </h6>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <div class="product-item">
-                                    <div class="product-thumb">
-                                        <div class="pro-thumb">
-                                            <img src="assets/images/shop/06.jpg" alt="shop">
-                                        </div>
-                                        <div class="product-action-link">
-                                            <a class="view-modal" data-target="#quick_view"><i class="icofont-eye"></i></a>
-                                            <a href="#"><i class="icofont-heart"></i></a>
-                                            <a href="#"><i class="icofont-cart-alt"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="product-content">
-                                        <h5><a href="#"> @Html.ActionLink("Product Title Here ", "Details", "product")</a></h5>
-                                        <p>
-                                            <i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i>
-                                        </p>
-                                        <h6>₫200</h6>
-                                    </div>
-                                </div>
-                                <div class="product-list-item">
-                                    <div class="product-thumb">
-                                        <div class="pro-thumb">
-                                            <img src="assets/images/shop/06.jpg" alt="shop">
-                                        </div>
-                                        <div class="product-action-link">
-                                            <a class="view-modal" data-target="#quick_view"><i class="icofont-eye"></i></a>
-                                            <a href="#"><i class="icofont-heart"></i></a>
-                                            <a href="#"><i class="icofont-cart-alt"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="product-content">
-                                        <h5><a href="#"> @Html.ActionLink("Product Title Here ", "Details", "product")</a></h5>
-                                        <p>
-                                            <i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i>
-                                        </p>
-                                        <h6>
-                                            ₫200
-                                        </h6>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <div class="product-item">
-                                    <div class="product-thumb">
-                                        <div class="pro-thumb">
-                                            <img src="assets/images/shop/07.jpg" alt="shop">
-                                        </div>
-                                        <div class="product-action-link">
-                                            <a class="view-modal" data-target="#quick_view"><i class="icofont-eye"></i></a>
-                                            <a href="#"><i class="icofont-heart"></i></a>
-                                            <a href="#"><i class="icofont-cart-alt"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="product-content">
-                                        <h5><a href="#"> @Html.ActionLink("Product Title Here ", "Details", "product")</a></h5>
-                                        <p>
-                                            <i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i>
-                                        </p>
-                                        <h6>₫200</h6>
-                                    </div>
-                                </div>
-                                <div class="product-list-item">
-                                    <div class="product-thumb">
-                                        <div class="pro-thumb">
-                                            <img src="assets/images/shop/07.jpg" alt="shop">
-                                        </div>
-                                        <div class="product-action-link">
-                                            <a class="view-modal" data-target="#quick_view"><i class="icofont-eye"></i></a>
-                                            <a href="#"><i class="icofont-heart"></i></a>
-                                            <a href="#"><i class="icofont-cart-alt"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="product-content">
-                                        <h5><a href="#"> @Html.ActionLink("Product Title Here ", "Details", "product")</a></h5>
-                                        <p>
-                                            <i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i>
-                                        </p>
-                                        <h6>
-                                            ₫200
-                                        </h6>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <div class="product-item">
-                                    <div class="product-thumb">
-                                        <div class="pro-thumb">
-                                            <img src="assets/images/shop/08.jpg" alt="shop">
-                                        </div>
-                                        <div class="product-action-link">
-                                            <a class="view-modal" data-target="#quick_view"><i class="icofont-eye"></i></a>
-                                            <a href="#"><i class="icofont-heart"></i></a>
-                                            <a href="#"><i class="icofont-cart-alt"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="product-content">
-                                        <h5><a href="#"> @Html.ActionLink("Product Title Here ", "Details", "product")</a></h5>
-                                        <p>
-                                            <i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i>
-                                        </p>
-                                        <h6>₫200</h6>
-                                    </div>
-                                </div>
-                                <div class="product-list-item">
-                                    <div class="product-thumb">
-                                        <div class="pro-thumb">
-                                            <img src="assets/images/shop/08.jpg" alt="shop">
-                                        </div>
-                                        <div class="product-action-link">
-                                            <a class="view-modal" data-target="#quick_view"><i class="icofont-eye"></i></a>
-                                            <a href="#"><i class="icofont-heart"></i></a>
-                                            <a href="#"><i class="icofont-cart-alt"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="product-content">
-                                        <h5><a href="#"> @Html.ActionLink("Product Title Here ", "Details", "product")</a></h5>
-                                        <p>
-                                            <i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i>
-                                        </p>
-                                        <h6>
-                                            ₫200
-                                        </h6>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <div class="product-item">
-                                    <div class="product-thumb">
-                                        <div class="pro-thumb">
-                                            <img src="assets/images/shop/09.jpg" alt="shop">
-                                        </div>
-                                        <div class="product-action-link">
-                                            <a class="view-modal" data-target="#quick_view"><i class="icofont-eye"></i></a>
-                                            <a href="#"><i class="icofont-heart"></i></a>
-                                            <a href="#"><i class="icofont-cart-alt"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="product-content">
-                                        <h5><a href="#"> @Html.ActionLink("Product Title Here ", "Details", "product")</a></h5>
-                                        <p>
-                                            <i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i>
-                                        </p>
-                                        <h6>₫200</h6>
-                                    </div>
-                                </div>
-                                <div class="product-list-item">
-                                    <div class="product-thumb">
-                                        <div class="pro-thumb">
-                                            <img src="assets/images/shop/09.jpg" alt="shop">
-                                        </div>
-                                        <div class="product-action-link">
-                                            <a class="view-modal" data-target="#quick_view"><i class="icofont-eye"></i></a>
-                                            <a href="#"><i class="icofont-heart"></i></a>
-                                            <a href="#"><i class="icofont-cart-alt"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="product-content">
-                                        <h5><a href="#"> @Html.ActionLink("Product Title Here ", "Details", "product")</a></h5>
-                                        <p>
-                                            <i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i>
-                                        </p>
-                                        <h6>
-                                            ₫200
-                                        </h6>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
+                           }
+                           
+                        </div>
                         </div>
                         <div class="paginations">
                             <ul class="d-flex flex-wrap lab-ul justify-content-center">
