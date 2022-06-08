@@ -29,13 +29,13 @@ namespace WepApp.Models
         public virtual DbSet<Quoctich> Quoctiches { get; set; }
         public virtual DbSet<Sanpham> Sanphams { get; set; }
         public virtual DbSet<Tokhai> Tokhais { get; set; }
-        
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("Server=DESKTOP-BTJRTTO;Initial Catalog=covid19;Integrated Security=True;");
+                optionsBuilder.UseSqlServer("Server=DESKTOP-7E0PDN3;Initial Catalog=covid19;Integrated Security=True;");
             }
         }
 
@@ -44,7 +44,7 @@ namespace WepApp.Models
             modelBuilder.Entity<CtHoadon>(entity =>
             {
                 entity.HasKey(e => new { e.Masp, e.Mdhd })
-                    .HasName("PK__CT_HOADO__518DC7BD85FB8862");
+                    .HasName("PK__CT_HOADO__518DC7BD1203C691");
 
                 entity.ToTable("CT_HOADON");
 
@@ -72,7 +72,7 @@ namespace WepApp.Models
             modelBuilder.Entity<Danhmuc>(entity =>
             {
                 entity.HasKey(e => e.Madm)
-                    .HasName("PK__DANHMUC__603F005CC88084FD");
+                    .HasName("PK__EN__603F005CE202E1CC");
 
                 entity.ToTable("DANHMUC");
 
@@ -88,7 +88,7 @@ namespace WepApp.Models
             modelBuilder.Entity<Dantoc>(entity =>
             {
                 entity.HasKey(e => e.Madt)
-                    .HasName("PK__DANTOC__603F005BDF06D42A");
+                    .HasName("PK__DANTOC__603F005BD99B6BC3");
 
                 entity.ToTable("DANTOC");
 
@@ -104,7 +104,7 @@ namespace WepApp.Models
             modelBuilder.Entity<Gopy>(entity =>
             {
                 entity.HasKey(e => e.Magy)
-                    .HasName("PK__GOPY__603F38B2448F24D6");
+                    .HasName("PK__GOPY__603F38B2B41CE1C2");
 
                 entity.ToTable("GOPY");
 
@@ -136,7 +136,7 @@ namespace WepApp.Models
             modelBuilder.Entity<Hoadon>(entity =>
             {
                 entity.HasKey(e => e.Mdhd)
-                    .HasName("PK__HOADON__1AF4D8F293F2ABE6");
+                    .HasName("PK__HOADON__1AF4D8F2987CD681");
 
                 entity.ToTable("HOADON");
 
@@ -178,7 +178,7 @@ namespace WepApp.Models
             modelBuilder.Entity<Hoso>(entity =>
             {
                 entity.HasKey(e => e.Mahs)
-                    .HasName("PK__HOSO__603F20DD13578A4B");
+                    .HasName("PK__HOSO__603F20DD335BCDFF");
 
                 entity.ToTable("HOSO");
 
@@ -208,7 +208,7 @@ namespace WepApp.Models
             modelBuilder.Entity<Khachhang>(entity =>
             {
                 entity.HasKey(e => e.Makh)
-                    .HasName("PK__KHACHHAN__603F592CE5C317AA");
+                    .HasName("PK__KHACHHAN__603F592CC8247DD8");
 
                 entity.ToTable("KHACHHANG");
 
@@ -278,7 +278,7 @@ namespace WepApp.Models
             modelBuilder.Entity<Lienhe>(entity =>
             {
                 entity.HasKey(e => e.Malh)
-                    .HasName("PK__LIENHE__603F414D57ADDD57");
+                    .HasName("PK__LIENHE__603F414D33F3CD55");
 
                 entity.ToTable("LIENHE");
 
@@ -306,7 +306,7 @@ namespace WepApp.Models
             modelBuilder.Entity<Loaitk>(entity =>
             {
                 entity.HasKey(e => e.Maloaitk)
-                    .HasName("PK__LOAITK__AFC8E595787EE494");
+                    .HasName("PK__LOAITK__AFC8E59555153AC0");
 
                 entity.ToTable("LOAITK");
 
@@ -324,7 +324,7 @@ namespace WepApp.Models
             modelBuilder.Entity<Quoctich>(entity =>
             {
                 entity.HasKey(e => e.Maqt)
-                    .HasName("PK__QUOCTICH__602379EC43F6FDC1");
+                    .HasName("PK__QUOCTICH__602379EC2B77DBAC");
 
                 entity.ToTable("QUOCTICH");
 
@@ -340,7 +340,7 @@ namespace WepApp.Models
             modelBuilder.Entity<Sanpham>(entity =>
             {
                 entity.HasKey(e => e.Masp)
-                    .HasName("PK__SANPHAM__60228A32823F718D");
+                    .HasName("PK__SANPHAM__60228A3242E0E5D0");
 
                 entity.ToTable("SANPHAM");
 
@@ -362,13 +362,13 @@ namespace WepApp.Models
                     .WithMany(p => p.Sanphams)
                     .HasForeignKey(d => d.Madm)
                     .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK__SANPHAM__MADM__440B1D61");
+                    .HasConstraintName("FK__SANPHAM__MADM__3F466844");
             });
 
             modelBuilder.Entity<Tokhai>(entity =>
             {
                 entity.HasKey(e => e.Matokhai)
-                    .HasName("PK__TOKHAI__D056C0E8DBF66DE8");
+                    .HasName("PK__TOKHAI__D056C0E8A4E76C56");
 
                 entity.ToTable("TOKHAI");
 
