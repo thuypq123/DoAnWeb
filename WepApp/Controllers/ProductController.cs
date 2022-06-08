@@ -12,5 +12,9 @@ namespace WepApp.Controllers
         {
             return View();
         }
+        public IActionResult Pagecarts()
+        {
+            return View();
+        }
     }
 }
