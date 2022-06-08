@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "1u3C8/IZxbTQoc6xv+nxVQyOyhXQ/2IbrEqqaqXJ8t7zXhfg5Ir6Gq/N0TJGe8uN5eGS/Ua2cqTkDLSPPHGbzA==",
   "success": true,
   "projectFilePath": "C:\\Users\\aehol\\Desktop\\DoAnWeb\\WepApp\\WepApp.csproj",
+=======
+  "dgSpecHash": "NgyNINCyQSkY5CxPR+3fPz1VNEqtlR0m14ZqXzta+WfGizVaxQV4EWyTJCC3+plJ2NEqAPjMSUjKtJD5HssgLQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\minhm\\source\\repos\\DoAnweb\\WepApp\\WepApp.csproj",
+>>>>>>> 14bf7e8ec062bac500ce22fe7c96dc28505fa9e1
   "expectedPackageFiles": [
     "C:\\Users\\aehol\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\aehol\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
